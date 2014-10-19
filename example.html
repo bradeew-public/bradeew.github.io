@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.parseXML demo</title>
+  <script src="src/jquery.js"></script>
+  <script src="src/parse.js"></script>
+</head>
+<body>
+ 
+<p id="someElement">Marla's CCD</p>
+<p id="anotherElement"></p>
+
+
+<script type="text/javascript">
+
+window.onerror=function(msg, url, linenumber){
+ alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber)
+ return true
+}
+</script>
+
+
+<script>
+$(document).ready(function(){
+
+	$.ajax({
+		type: "GET",
+		url: "CCD/modified_marla_CCD.xml",
+		dataType: "xml",
+		success: getDemographicInfo
+	});
+});
+</script>
+ 
+</body>
+</html>
