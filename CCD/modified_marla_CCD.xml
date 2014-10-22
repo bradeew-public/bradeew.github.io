@@ -115,7 +115,7 @@
           <entry typeCode="DRIV">
             <act classCode="ACT" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
-              <id root="05b7376a-8261-4ec5-93cc-b7b1f2655780"/>
+              <id root="75aea1e4-104e-4cd8-b8de-7292eaacffcf"/>
               <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
               <statusCode code="active"/>
               <effectiveTime>
@@ -124,7 +124,7 @@
               <entryRelationship typeCode="SUBJ">
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
-                  <id root="71ba0c93-1bce-4caa-8e0b-095231389129"/>
+                  <id root="46b552f2-820a-4b8e-986c-1907f962d932"/>
                   <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -153,7 +153,7 @@
                   <entryRelationship typeCode="MFST" inversionInd="true">
                     <observation classCode="OBS" moodCode="EVN">
                       <templateId root="2.16.840.1.113883.10.20.22.4.9"/>
-                      <id root="3c31916a-2d70-40a5-8b9a-a31a61069506"/>
+                      <id root="6d6a4526-b12a-4d15-9409-065acc3fc8b5"/>
                       <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
                       <statusCode code="completed"/>
                       <value xsi:type="CD" code="233683003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Hay fever with asthma"/>
@@ -175,7 +175,7 @@
           <entry typeCode="DRIV">
             <act classCode="ACT" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
-              <id root="61e1d7d4-97e0-4d4f-af8a-5b9f8394fec6"/>
+              <id root="6b6585e3-a999-4049-9f59-bdcdbdd0782e"/>
               <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
               <statusCode code="active"/>
               <effectiveTime>
@@ -184,7 +184,7 @@
               <entryRelationship typeCode="SUBJ">
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
-                  <id root="88c97d7a-2474-45cd-b04e-8050f0336453"/>
+                  <id root="4b158b07-992a-49bf-9422-a70591b092f4"/>
                   <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -213,7 +213,7 @@
                   <entryRelationship typeCode="MFST" inversionInd="true">
                     <observation classCode="OBS" moodCode="EVN">
                       <templateId root="2.16.840.1.113883.10.20.22.4.9"/>
-                      <id root="d9643b49-75c5-44e8-b0b8-d6a0cfb487a6"/>
+                      <id root="e13b1785-6689-4654-b702-92b515f7aa75"/>
                       <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
                       <statusCode code="completed"/>
                       <value xsi:type="CD" code="247472004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Hives"/>
@@ -265,7 +265,7 @@
                                <td>160</td>
                                <td>75</td>
                                <td>33</td>
-                               <td/>
+                               <td>150/88</td>
                                <td>50 y/o caucasian F who presents with 4 day history of dysuria, urgency, cloudy urine. Urine dipstick reveals numerous WBCS, positive leukocyte esterase, small amount of blood. Ordered urine culture. Prescribed course of antibiotics trimethoprim-sulfamethoxazole.</td>
                           </tr>
                           <tr>
@@ -278,7 +278,7 @@
                                <td>73</td>
                                <td>30</td>
                                <td>159/89</td>
-                               <td>53 y/o caucasian F w/X year history of diabetes, and x/year history of HTN. Has continued to gain weight over past year. HgbA1c indicates poor glucose control. Cites recent stress and insomnia for weight gain. Reiterated importance of diet and exercise. Educated on sleep hygiene.</td>
+                               <td>53 y/o caucasian F w/ 9 year history of diabetes, and 4 year history of HTN. Has continued to gain weight over past year. HgbA1c indicates poor glucose control. Cites recent stress and insomnia for weight gain. Reiterated importance of diet and exercise. Educated on sleep hygiene.</td>
                           </tr>
                           <tr>
                                <td><content ID="Encounter3"/>20081104</td>
@@ -289,7 +289,7 @@
                                <td>175</td>
                                <td>76</td>
                                <td>35</td>
-                               <td/>
+                               <td>164/92</td>
                                <td>56 y/o caucasian female who presents 10 day history of fever, anorexia, cough productive of green sputum. Crackles in R lower lobe suggestive of pneumonia. Ordered chest xray, CBC, sputum culture. Prescribed course of levofloxacin.</td>
                           </tr>
                           <tr>
@@ -302,7 +302,7 @@
                                <td>81</td>
                                <td>30</td>
                                <td>162/94</td>
-                               <td>57 y/o caucasian female with X year history of diabetes and a X year history of HTN. HgbA1c reveals poor control of diabetes. Increased long-acting insulin. HTN controlled.</td>
+                               <td>57 y/o caucasian female with 13 year history of diabetes and a 8 year history of HTN. HgbA1c reveals poor control of diabetes. Increased long-acting insulin. HTN controlled.</td>
                           </tr>
                           <tr>
                                <td><content ID="Encounter5"/>20110423</td>
@@ -345,7 +345,7 @@
           <entry typeCode="DRIV">
             <encounter classCode="ENC" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
-              <id root="1ca6d710-3a47-4714-9be0-87bd0d074efe"/>
+              <id root="8f7776cb-f3c4-45d8-9559-7abea315b071"/>
               <code code="99241" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="4" displayName="Annual Physical Exam">
                 <originalText>Checkup Examination<reference value="#Encounter1"/></originalText>
               </code>
@@ -356,7 +356,7 @@
           <entry typeCode="DRIV">
             <encounter classCode="ENC" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
-              <id root="71830e78-e78b-410d-8952-08b81ab0864c"/>
+              <id root="4b3764b1-1cc7-4f84-a2a5-6343fcf6009a"/>
               <code code="99241" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="4" displayName="Annual Physical Exam">
                 <originalText>Checkup Examination<reference value="#Encounter2"/></originalText>
               </code>
@@ -367,7 +367,7 @@
           <entry typeCode="DRIV">
             <encounter classCode="ENC" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
-              <id root="ee113588-a6e8-4162-85e5-3f56caae1042"/>
+              <id root="49124a41-0435-48b8-8e35-8d4ce2227c55"/>
               <code code="99241" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="4" displayName="Annual Physical Exam">
                 <originalText>Checkup Examination<reference value="#Encounter3"/></originalText>
               </code>
@@ -378,7 +378,7 @@
           <entry typeCode="DRIV">
             <encounter classCode="ENC" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
-              <id root="8164ce6e-6c33-4dd2-8754-f0aeea7bece3"/>
+              <id root="6f8bac2f-fc22-4288-b97b-7c18b7b8152e"/>
               <code code="99241" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="4" displayName="Annual Physical Exam">
                 <originalText>Checkup Examination<reference value="#Encounter4"/></originalText>
               </code>
@@ -389,7 +389,7 @@
           <entry typeCode="DRIV">
             <encounter classCode="ENC" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
-              <id root="9395f64b-9469-46b1-bf69-fcfc903acb9c"/>
+              <id root="a629be78-b506-42e6-b854-3ff2d2a7c61f"/>
               <code code="99241" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="4" displayName="Annual Physical Exam">
                 <originalText>Checkup Examination<reference value="#Encounter5"/></originalText>
               </code>
@@ -400,7 +400,7 @@
           <entry typeCode="DRIV">
             <encounter classCode="ENC" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
-              <id root="20cccc06-ce9c-4cce-9562-9884ab90cb92"/>
+              <id root="4efb9ab7-42dc-4e2b-a0c7-756e31b6382b"/>
               <code code="99241" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="4" displayName="Annual Physical Exam">
                 <originalText>Checkup Examination<reference value="#Encounter6"/></originalText>
               </code>
@@ -411,7 +411,7 @@
           <entry typeCode="DRIV">
             <encounter classCode="ENC" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
-              <id root="43732d01-a29f-4e4d-8693-1cd6c2b3dfca"/>
+              <id root="3092de84-f250-4c8b-a76d-87eb920b9896"/>
               <code code="99241" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="4" displayName="Annual Physical Exam">
                 <originalText>Checkup Examination<reference value="#Encounter7"/></originalText>
               </code>
@@ -451,7 +451,7 @@
           <entry typeCode="DRIV">
             <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
               <templateId root="2.16.840.1.113883.10.20.22.4.52"/>
-              <id root="ac9fa777-6863-43bf-b284-b0184e2211ae"/>
+              <id root="5a4a9732-b3b5-4e24-bff8-909ea0665707"/>
               <text><reference value="#immun1"/></text>
               <statusCode code="completed"/>
               <effectiveTime xsi:type="IVL_TS" value="20110423"/>
@@ -471,7 +471,7 @@
           <entry typeCode="DRIV">
             <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
               <templateId root="2.16.840.1.113883.10.20.22.4.52"/>
-              <id root="fcd2dbaa-d7df-40e2-9950-155d909362cc"/>
+              <id root="67a6358f-636b-4e12-9409-88ceb1460cc5"/>
               <text><reference value="#immun2"/></text>
               <statusCode code="completed"/>
               <effectiveTime xsi:type="IVL_TS" value="20110423"/>
@@ -562,7 +562,7 @@
           <entry typeCode="DRIV">
             <substanceAdministration classCode="SBADM" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
-              <id root="49efea4c-2b56-4342-aea8-c93b75bc8419"/>
+              <id root="3a711398-1a94-452d-a656-cc5493fdb9a3"/>
               <text><reference value="#Medication1"/> trimethoprim-sulfamethoxazole, 1 tablet each morning</text>
               <statusCode code="completed"/>
               <effectiveTime xsi:type="IVL_TS">
@@ -588,7 +588,7 @@
           <entry typeCode="DRIV">
             <substanceAdministration classCode="SBADM" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
-              <id root="7c409f45-0c63-461d-a18d-4edf67ccb390"/>
+              <id root="11dada8e-c33a-4f5a-957e-6702884c7401"/>
               <text><reference value="#Medication2"/>levofloxacin, 1 tablet each morning</text>
               <statusCode code="completed"/>
               <effectiveTime xsi:type="IVL_TS">
@@ -614,7 +614,7 @@
           <entry typeCode="DRIV">
             <substanceAdministration classCode="SBADM" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
-              <id root="6ca234b8-7f84-49a9-bde6-21ecf3574247"/>
+              <id root="d4894101-5673-4bbb-a6c9-2bb646e83ca5"/>
               <text><reference value="#Medication3"/>Furosemide 40 MG Oral Tablet [Lasix], 1 tablet at bedtime</text>
               <statusCode code="completed"/>
               <effectiveTime xsi:type="IVL_TS">
@@ -640,7 +640,7 @@
           <entry typeCode="DRIV">
             <substanceAdministration classCode="SBADM" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
-              <id root="ae4155c1-2501-45be-beef-2d247477c40c"/>
+              <id root="21668308-017c-4396-90e7-b371acb59557"/>
               <text><reference value="#Medication4"/>24 HR Propranolol Hydrochloride 60 MG Extended Release Oral Capsule [Inderal], 1 tablet each morning</text>
               <statusCode code="completed"/>
               <effectiveTime xsi:type="IVL_TS">
@@ -666,7 +666,7 @@
           <entry typeCode="DRIV">
             <substanceAdministration classCode="SBADM" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
-              <id root="6c8d8ea5-cd29-4528-8db2-18c4ed9bee22"/>
+              <id root="b2b922d1-20d8-43df-ab63-1923dc787635"/>
               <text><reference value="#Medication5"/>Furosemide 40 MG Oral Tablet [Lasix], 1 tablet each morning and at bedtime</text>
               <statusCode code="completed"/>
               <effectiveTime xsi:type="IVL_TS">
@@ -692,7 +692,7 @@
           <entry typeCode="DRIV">
             <substanceAdministration classCode="SBADM" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
-              <id root="d64071c7-c56c-47b2-9e65-660f91b3c4e5"/>
+              <id root="ad322529-bdef-4e6f-ae9b-55dad90c8443"/>
               <text><reference value="#Medication6"/>24 HR Propranolol Hydrochloride 60 MG Extended Release Oral Capsule [Inderal], 1 tablet each morning</text>
               <statusCode code="completed"/>
               <effectiveTime xsi:type="IVL_TS">
@@ -733,7 +733,7 @@
           <entry typeCode="DRIV">
             <act classCode="ACT" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
-              <id root="73c11917-c24a-4260-ab53-b1821e1024ae"/>
+              <id root="af04c0c1-9561-4e9e-9491-97db94ec82fb"/>
               <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"/>
               <statusCode code="active"/>
               <effectiveTime>
@@ -742,7 +742,7 @@
               <entryRelationship typeCode="SUBJ">
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
-                  <id root="5579830d-5168-412d-a276-ccdcb8a2f629"/>
+                  <id root="69d569d8-01c4-4b5d-a1b5-f8082b1f8268"/>
                   <code code="409586006" codeSystem="2.16.840.1.113883.6.96" displayName="Complaint"/>
                   <text><reference value="#problem1"/></text>
                   <statusCode code="completed"/>
@@ -754,7 +754,7 @@
           <entry typeCode="DRIV">
             <act classCode="ACT" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
-              <id root="d098df63-cd20-4ed8-856a-1aa5ed114504"/>
+              <id root="85211d7d-5502-449a-a29d-aab21551591f"/>
               <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"/>
               <statusCode code="active"/>
               <effectiveTime>
@@ -763,7 +763,7 @@
               <entryRelationship typeCode="SUBJ">
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
-                  <id root="447a7281-e503-4eb6-bb47-463171503c1a"/>
+                  <id root="edf749fa-76c9-47f6-87fa-fee978231d4d"/>
                   <code code="409586006" codeSystem="2.16.840.1.113883.6.96" displayName="Complaint"/>
                   <text><reference value="#problem2"/></text>
                   <statusCode code="completed"/>
@@ -775,7 +775,7 @@
           <entry typeCode="DRIV">
             <act classCode="ACT" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
-              <id root="9e0b7606-957e-4cfb-a347-d158ed4590a4"/>
+              <id root="09a652c0-aa64-4a64-86d2-33e591f80e83"/>
               <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"/>
               <statusCode code="active"/>
               <effectiveTime>
@@ -784,7 +784,7 @@
               <entryRelationship typeCode="SUBJ">
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
-                  <id root="037158d1-42a4-4f1f-a63d-3e402c3c0c2c"/>
+                  <id root="53842711-1190-4751-99d6-3c66492f3ee5"/>
                   <code code="409586006" codeSystem="2.16.840.1.113883.6.96" displayName="Complaint"/>
                   <text><reference value="#problem3"/></text>
                   <statusCode code="completed"/>
@@ -796,7 +796,7 @@
           <entry typeCode="DRIV">
             <act classCode="ACT" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
-              <id root="051fe410-6576-4c98-ad82-4b0b6f2dafcc"/>
+              <id root="bcb9d5f9-90f9-4a3f-82c8-5f7bad01afdf"/>
               <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern"/>
               <statusCode code="active"/>
               <effectiveTime>
@@ -805,7 +805,7 @@
               <entryRelationship typeCode="SUBJ">
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
-                  <id root="9ee2ef9e-57e6-4781-8f06-d1d5b28f0c98"/>
+                  <id root="38dd5c05-8309-42bb-b902-003617f0a5e4"/>
                   <code code="409586006" codeSystem="2.16.840.1.113883.6.96" displayName="Complaint"/>
                   <text><reference value="#problem4"/></text>
                   <statusCode code="completed"/>
@@ -835,55 +835,23 @@
                      </thead>
                      <tbody>
                           <tr>
-                               <td><content ID="result1"/>20050421</td>
+                               <td><content ID="result1"/>20020218</td>
                                <td>Hemoglobin A1C</td>
                                <td>4548-4</td>
-                               <td>11.5</td>
+                               <td>7.8</td>
                                <td>%</td>
                                <td>Hgb A1c MFr Bld</td>
                           </tr>
                           <tr>
-                               <td><content ID="result2"/>20081104</td>
-                               <td>RBC</td>
-                               <td>789-8</td>
-                               <td>4.6</td>
-                               <td>10*6/uL</td>
-                               <td>Red Blood Count</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result3"/>20081104</td>
-                               <td>WBC</td>
-                               <td>6690-2</td>
-                               <td>12</td>
-                               <td>10*3/ul</td>
-                               <td>WBC # Bld Auto</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result4"/>20081104</td>
-                               <td>Chest X-ray</td>
-                               <td>42100-7</td>
-                               <td>R lower lobe consolidation</td>
-                               <td>text</td>
-                               <td>AP and PA Chest X-ray</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result5"/>20090420</td>
-                               <td>Hemoglobin A1C</td>
-                               <td>4548-4</td>
-                               <td>9.2</td>
-                               <td>%</td>
-                               <td>Hgb A1c MFr Bld</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result6"/>20110423</td>
+                               <td><content ID="result2"/>20020218</td>
                                <td>Hemoglobin</td>
                                <td>4635-9 </td>
-                               <td>12.5</td>
+                               <td>114.2</td>
                                <td>g/dl</td>
                                <td>Serum Hemoglobin</td>
                           </tr>
                           <tr>
-                               <td><content ID="result7"/>20110423</td>
+                               <td><content ID="result3"/>20020218</td>
                                <td>Hematocrit</td>
                                <td>20570-8 </td>
                                <td>40</td>
@@ -891,23 +859,23 @@
                                <td>Hematocrit</td>
                           </tr>
                           <tr>
-                               <td><content ID="result8"/>20110423</td>
+                               <td><content ID="result4"/>20020218</td>
                                <td>RBC</td>
                                <td>789-8</td>
-                               <td>4.2</td>
+                               <td>4.7</td>
                                <td>10*6/uL</td>
                                <td>Red Blood Count</td>
                           </tr>
                           <tr>
-                               <td><content ID="result9"/>20110423</td>
+                               <td><content ID="result5"/>20020218</td>
                                <td>Serum Sodium</td>
                                <td>24326-1</td>
-                               <td>137</td>
+                               <td>136</td>
                                <td>mEq/L </td>
                                <td>Serum Sodium</td>
                           </tr>
                           <tr>
-                               <td><content ID="result10"/>20110423</td>
+                               <td><content ID="result6"/>20020218</td>
                                <td>Serum Potassium</td>
                                <td>24326-1</td>
                                <td>3.4</td>
@@ -915,159 +883,15 @@
                                <td>Serum Potassium</td>
                           </tr>
                           <tr>
-                               <td><content ID="result11"/>20110423</td>
+                               <td><content ID="result7"/>20020218</td>
                                <td>Serum Chloride</td>
                                <td>24326-1</td>
-                               <td>98</td>
-                               <td>mEq/L </td>
-                               <td>Serum Chloride</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result12"/>20110423</td>
-                               <td>Chest X-ray</td>
-                               <td>42100-7</td>
-                               <td>Mild LV enlargement</td>
-                               <td>text</td>
-                               <td>AP and PA Chest X-ray</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result13"/>20110423</td>
-                               <td>ECG</td>
-                               <td>8601-7</td>
-                               <td>Possible early LVH</td>
-                               <td>text</td>
-                               <td>EKG</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result14"/>20110423</td>
-                               <td>Pulse Ox</td>
-                               <td>59408-5</td>
-                               <td>92</td>
-                               <td>%</td>
-                               <td>Pulse Oxygen</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result15"/>20110425</td>
-                               <td>Hemoglobin</td>
-                               <td>4635-9 </td>
-                               <td>13</td>
-                               <td>g/dl</td>
-                               <td>Serum Hemoglobin</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result16"/>20110425</td>
-                               <td>Hematocrit</td>
-                               <td>20570-8 </td>
-                               <td>40</td>
-                               <td>%</td>
-                               <td>Hematocrit</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result17"/>20110425</td>
-                               <td>RBC</td>
-                               <td>789-8</td>
-                               <td>4.4</td>
-                               <td>10*6/uL</td>
-                               <td>Red Blood Count</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result18"/>20110425</td>
-                               <td>Serum Sodium</td>
-                               <td>24326-1</td>
-                               <td>132</td>
-                               <td>mEq/L </td>
-                               <td>Serum Sodium</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result19"/>20110425</td>
-                               <td>Serum Potassium</td>
-                               <td>24326-1</td>
-                               <td>3.2</td>
-                               <td>mEq/L </td>
-                               <td>Serum Potassium</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result20"/>20110425</td>
-                               <td>Serum Chloride</td>
-                               <td>24326-1</td>
-                               <td>92</td>
+                               <td>100</td>
                                <td>mEq/L </td>
                                <td>Serum Chloride</td>
                           </tr>
                           <tr>
-                               <td><content ID="result21"/>20110425</td>
-                               <td>Chest X-ray</td>
-                               <td>42100-7</td>
-                               <td>Mild LV enlargement</td>
-                               <td>text</td>
-                               <td>AP and PA Chest X-ray</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result22"/>20110425</td>
-                               <td>ECG</td>
-                               <td>8601-7</td>
-                               <td>Possible early LVH</td>
-                               <td>text</td>
-                               <td>EKG</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result23"/>20110425</td>
-                               <td>Pulse Ox</td>
-                               <td>59408-5</td>
-                               <td>90</td>
-                               <td>%</td>
-                               <td>Pulse Oxygen</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result24"/>20130426</td>
-                               <td>Hemoglobin</td>
-                               <td>4635-9 </td>
-                               <td>13</td>
-                               <td>g/dl</td>
-                               <td>Serum Hemoglobin</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result25"/>20130426</td>
-                               <td>Hematocrit</td>
-                               <td>20570-8 </td>
-                               <td>40</td>
-                               <td>%</td>
-                               <td>Hematocrit</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result26"/>20130426</td>
-                               <td>RBC</td>
-                               <td>789-8</td>
-                               <td>4.3</td>
-                               <td>10*6/uL</td>
-                               <td>Red Blood Count</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result27"/>20130426</td>
-                               <td>Serum Sodium</td>
-                               <td>24326-1</td>
-                               <td>130</td>
-                               <td>mEq/L </td>
-                               <td>Serum Sodium</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result28"/>20130426</td>
-                               <td>Serum Potassium</td>
-                               <td>24326-1</td>
-                               <td>3.4</td>
-                               <td>mEq/L </td>
-                               <td>Serum Potassium</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result29"/>20130426</td>
-                               <td>Serum Chloride</td>
-                               <td>24326-1</td>
-                               <td>88</td>
-                               <td>mEq/L </td>
-                               <td>Serum Chloride</td>
-                          </tr>
-                          <tr>
-                               <td><content ID="result30"/>20130426</td>
+                               <td><content ID="result8"/>20020218</td>
                                <td>Chest X-ray</td>
                                <td>42100-7</td>
                                <td>Mild-moderate LV enlargement</td>
@@ -1075,7 +899,479 @@
                                <td>AP and PA Chest X-ray</td>
                           </tr>
                           <tr>
-                               <td><content ID="result31"/>20130426</td>
+                               <td><content ID="result9"/>20020218</td>
+                               <td>ECG</td>
+                               <td>8601-7</td>
+                               <td>Normal</td>
+                               <td>text</td>
+                               <td>EKG</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result10"/>20020218</td>
+                               <td>Pulse Ox</td>
+                               <td>59408-5</td>
+                               <td>96</td>
+                               <td>%</td>
+                               <td>Pulse Oxygen</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result11"/>20050421</td>
+                               <td>Hemoglobin A1C</td>
+                               <td>4548-4</td>
+                               <td>10.2</td>
+                               <td>%</td>
+                               <td>Hgb A1c MFr Bld</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result12"/>20050421</td>
+                               <td>Hemoglobin</td>
+                               <td>4635-9 </td>
+                               <td>14</td>
+                               <td>g/dl</td>
+                               <td>Serum Hemoglobin</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result13"/>20050421</td>
+                               <td>Hematocrit</td>
+                               <td>20570-8 </td>
+                               <td>42</td>
+                               <td>%</td>
+                               <td>Hematocrit</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result14"/>20050421</td>
+                               <td>RBC</td>
+                               <td>789-8</td>
+                               <td>4.6</td>
+                               <td>10*6/uL</td>
+                               <td>Red Blood Count</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result15"/>20050421</td>
+                               <td>Serum Sodium</td>
+                               <td>24326-1</td>
+                               <td>138</td>
+                               <td>mEq/L </td>
+                               <td>Serum Sodium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result16"/>20050421</td>
+                               <td>Serum Potassium</td>
+                               <td>24326-1</td>
+                               <td>3.6</td>
+                               <td>mEq/L </td>
+                               <td>Serum Potassium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result17"/>20050421</td>
+                               <td>Serum Chloride</td>
+                               <td>24326-1</td>
+                               <td>104</td>
+                               <td>mEq/L </td>
+                               <td>Serum Chloride</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result18"/>20050421</td>
+                               <td>Chest X-ray</td>
+                               <td>42100-7</td>
+                               <td>Mild-moderate LV enlargement</td>
+                               <td>text</td>
+                               <td>AP and PA Chest X-ray</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result19"/>20050421</td>
+                               <td>ECG</td>
+                               <td>8601-7</td>
+                               <td>Possible early LVH</td>
+                               <td>text</td>
+                               <td>EKG</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result20"/>20050421</td>
+                               <td>Pulse Ox</td>
+                               <td>59408-5</td>
+                               <td>94</td>
+                               <td>%</td>
+                               <td>Pulse Oxygen</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result21"/>20081104</td>
+                               <td>RBC</td>
+                               <td>789-8</td>
+                               <td>4.6</td>
+                               <td>10*6/uL</td>
+                               <td>Red Blood Count</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result22"/>20081104</td>
+                               <td>WBC</td>
+                               <td>6690-2</td>
+                               <td>12</td>
+                               <td>10*3/ul</td>
+                               <td>WBC # Bld Auto</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result23"/>20081104</td>
+                               <td>Chest X-ray</td>
+                               <td>42100-7</td>
+                               <td>R lower lobe consolidation</td>
+                               <td>text</td>
+                               <td>AP and PA Chest X-ray</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result24"/>20081104</td>
+                               <td>Hemoglobin A1C</td>
+                               <td>4548-4</td>
+                               <td>9</td>
+                               <td>%</td>
+                               <td>Hgb A1c MFr Bld</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result25"/>20081104</td>
+                               <td>Hemoglobin</td>
+                               <td>4635-9 </td>
+                               <td>13</td>
+                               <td>g/dl</td>
+                               <td>Serum Hemoglobin</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result26"/>20081104</td>
+                               <td>Hematocrit</td>
+                               <td>20570-8 </td>
+                               <td>40</td>
+                               <td>%</td>
+                               <td>Hematocrit</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result27"/>20081104</td>
+                               <td>RBC</td>
+                               <td>789-8</td>
+                               <td>4.7</td>
+                               <td>10*6/uL</td>
+                               <td>Red Blood Count</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result28"/>20081104</td>
+                               <td>Serum Sodium</td>
+                               <td>24326-1</td>
+                               <td>144</td>
+                               <td>mEq/L </td>
+                               <td>Serum Sodium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result29"/>20081104</td>
+                               <td>Serum Potassium</td>
+                               <td>24326-1</td>
+                               <td>3.5</td>
+                               <td>mEq/L </td>
+                               <td>Serum Potassium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result30"/>20081104</td>
+                               <td>Serum Chloride</td>
+                               <td>24326-1</td>
+                               <td>102</td>
+                               <td>mEq/L </td>
+                               <td>Serum Chloride</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result31"/>20081104</td>
+                               <td>ECG</td>
+                               <td>8601-7</td>
+                               <td>Possible early LVH</td>
+                               <td>text</td>
+                               <td>EKG</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result32"/>20081104</td>
+                               <td>Pulse Ox</td>
+                               <td>59408-5</td>
+                               <td>94</td>
+                               <td>%</td>
+                               <td>Pulse Oxygen</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result33"/>20090420</td>
+                               <td>Hemoglobin A1C</td>
+                               <td>4548-4</td>
+                               <td>10.4</td>
+                               <td>%</td>
+                               <td>Hgb A1c MFr Bld</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result34"/>20090420</td>
+                               <td>Hemoglobin</td>
+                               <td>4635-9 </td>
+                               <td>13.5</td>
+                               <td>g/dl</td>
+                               <td>Serum Hemoglobin</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result35"/>20090420</td>
+                               <td>Hematocrit</td>
+                               <td>20570-8 </td>
+                               <td>40</td>
+                               <td>%</td>
+                               <td>Hematocrit</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result36"/>20090420</td>
+                               <td>RBC</td>
+                               <td>789-8</td>
+                               <td>4.5</td>
+                               <td>10*6/uL</td>
+                               <td>Red Blood Count</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result37"/>20090420</td>
+                               <td>Serum Sodium</td>
+                               <td>24326-1</td>
+                               <td>140</td>
+                               <td>mEq/L </td>
+                               <td>Serum Sodium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result38"/>20090420</td>
+                               <td>Serum Potassium</td>
+                               <td>24326-1</td>
+                               <td>3.3</td>
+                               <td>mEq/L </td>
+                               <td>Serum Potassium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result39"/>20090420</td>
+                               <td>Serum Chloride</td>
+                               <td>24326-1</td>
+                               <td>100</td>
+                               <td>mEq/L </td>
+                               <td>Serum Chloride</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result40"/>20090420</td>
+                               <td>Chest X-ray</td>
+                               <td>42100-7</td>
+                               <td>Mild-moderate LV enlargement</td>
+                               <td>text</td>
+                               <td>AP and PA Chest X-ray</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result41"/>20090420</td>
+                               <td>ECG</td>
+                               <td>8601-7</td>
+                               <td>Possible early LVH</td>
+                               <td>text</td>
+                               <td>EKG</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result42"/>20090420</td>
+                               <td>Pulse Ox</td>
+                               <td>59408-5</td>
+                               <td>93</td>
+                               <td>%</td>
+                               <td>Pulse Oxygen</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result43"/>20110423</td>
+                               <td>Hemoglobin</td>
+                               <td>4635-9 </td>
+                               <td>12.5</td>
+                               <td>g/dl</td>
+                               <td>Serum Hemoglobin</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result44"/>20110423</td>
+                               <td>Hematocrit</td>
+                               <td>20570-8 </td>
+                               <td>40</td>
+                               <td>%</td>
+                               <td>Hematocrit</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result45"/>20110423</td>
+                               <td>RBC</td>
+                               <td>789-8</td>
+                               <td>4.2</td>
+                               <td>10*6/uL</td>
+                               <td>Red Blood Count</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result46"/>20110423</td>
+                               <td>Serum Sodium</td>
+                               <td>24326-1</td>
+                               <td>137</td>
+                               <td>mEq/L </td>
+                               <td>Serum Sodium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result47"/>20110423</td>
+                               <td>Serum Potassium</td>
+                               <td>24326-1</td>
+                               <td>3.4</td>
+                               <td>mEq/L </td>
+                               <td>Serum Potassium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result48"/>20110423</td>
+                               <td>Serum Chloride</td>
+                               <td>24326-1</td>
+                               <td>98</td>
+                               <td>mEq/L </td>
+                               <td>Serum Chloride</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result49"/>20110423</td>
+                               <td>Chest X-ray</td>
+                               <td>42100-7</td>
+                               <td>Mild LV enlargement</td>
+                               <td>text</td>
+                               <td>AP and PA Chest X-ray</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result50"/>20110423</td>
+                               <td>ECG</td>
+                               <td>8601-7</td>
+                               <td>Possible early LVH</td>
+                               <td>text</td>
+                               <td>EKG</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result51"/>20110423</td>
+                               <td>Pulse Ox</td>
+                               <td>59408-5</td>
+                               <td>92</td>
+                               <td>%</td>
+                               <td>Pulse Oxygen</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result52"/>20120425</td>
+                               <td>Hemoglobin</td>
+                               <td>4635-9 </td>
+                               <td>13</td>
+                               <td>g/dl</td>
+                               <td>Serum Hemoglobin</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result53"/>20120425</td>
+                               <td>Hematocrit</td>
+                               <td>20570-8 </td>
+                               <td>40</td>
+                               <td>%</td>
+                               <td>Hematocrit</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result54"/>20120425</td>
+                               <td>RBC</td>
+                               <td>789-8</td>
+                               <td>4.4</td>
+                               <td>10*6/uL</td>
+                               <td>Red Blood Count</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result55"/>20120425</td>
+                               <td>Serum Sodium</td>
+                               <td>24326-1</td>
+                               <td>132</td>
+                               <td>mEq/L </td>
+                               <td>Serum Sodium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result56"/>20120425</td>
+                               <td>Serum Potassium</td>
+                               <td>24326-1</td>
+                               <td>3.2</td>
+                               <td>mEq/L </td>
+                               <td>Serum Potassium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result57"/>20120425</td>
+                               <td>Serum Chloride</td>
+                               <td>24326-1</td>
+                               <td>92</td>
+                               <td>mEq/L </td>
+                               <td>Serum Chloride</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result58"/>20120425</td>
+                               <td>Chest X-ray</td>
+                               <td>42100-7</td>
+                               <td>Mild LV enlargement</td>
+                               <td>text</td>
+                               <td>AP and PA Chest X-ray</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result59"/>20120425</td>
+                               <td>ECG</td>
+                               <td>8601-7</td>
+                               <td>Possible early LVH</td>
+                               <td>text</td>
+                               <td>EKG</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result60"/>20120425</td>
+                               <td>Pulse Ox</td>
+                               <td>59408-5</td>
+                               <td>90</td>
+                               <td>%</td>
+                               <td>Pulse Oxygen</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result61"/>20130426</td>
+                               <td>Hemoglobin</td>
+                               <td>4635-9 </td>
+                               <td>13</td>
+                               <td>g/dl</td>
+                               <td>Serum Hemoglobin</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result62"/>20130426</td>
+                               <td>Hematocrit</td>
+                               <td>20570-8 </td>
+                               <td>40</td>
+                               <td>%</td>
+                               <td>Hematocrit</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result63"/>20130426</td>
+                               <td>RBC</td>
+                               <td>789-8</td>
+                               <td>4.3</td>
+                               <td>10*6/uL</td>
+                               <td>Red Blood Count</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result64"/>20130426</td>
+                               <td>Serum Sodium</td>
+                               <td>24326-1</td>
+                               <td>130</td>
+                               <td>mEq/L </td>
+                               <td>Serum Sodium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result65"/>20130426</td>
+                               <td>Serum Potassium</td>
+                               <td>24326-1</td>
+                               <td>3.4</td>
+                               <td>mEq/L </td>
+                               <td>Serum Potassium</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result66"/>20130426</td>
+                               <td>Serum Chloride</td>
+                               <td>24326-1</td>
+                               <td>88</td>
+                               <td>mEq/L </td>
+                               <td>Serum Chloride</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result67"/>20130426</td>
+                               <td>Chest X-ray</td>
+                               <td>42100-7</td>
+                               <td>Mild-moderate LV enlargement</td>
+                               <td>text</td>
+                               <td>AP and PA Chest X-ray</td>
+                          </tr>
+                          <tr>
+                               <td><content ID="result68"/>20130426</td>
                                <td>ECG</td>
                                <td>8601-7</td>
                                <td>Early LVH</td>
@@ -1083,7 +1379,7 @@
                                <td>EKG</td>
                           </tr>
                           <tr>
-                               <td><content ID="result32"/>20130426</td>
+                               <td><content ID="result69"/>20130426</td>
                                <td>Pulse Ox</td>
                                <td>59408-5</td>
                                <td>84</td>
@@ -1095,18 +1391,18 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="5d91314a-af86-4348-bfcd-7e2de09fa2bf"/>
+              <id root="5a844d3e-f716-445d-8102-4234e58289d6"/>
               <code code="4548-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin A1C"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="3ec3b02b-2777-4fb2-9baa-20fd29d4026c"/>
+                  <id root="629f8eed-d7e8-4aab-906d-a3bc7139b2d1"/>
                   <code xsi:type="CE" code="4548-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin A1C"/>
                   <text><reference value="#result1"/></text>
                   <statusCode code="completed"/>
-                  <effectiveTime value="20050421"/>
-                  <value xsi:type="PQ" value="11.5" unit="%"/>
+                  <effectiveTime value="20020218"/>
+                  <value xsi:type="PQ" value="7.8" unit="%"/>
                 </observation>
               </component>
             </organizer>
@@ -1114,15 +1410,376 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="6bd4597c-1e32-47fd-bb27-49168535e0e5"/>
+              <id root="1d8f26db-fe1d-4682-aa02-5f40c057c33d"/>
+              <code code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="7ab9e685-b4b4-4ab9-a67f-d0ede9811dcd"/>
+                  <code xsi:type="CE" code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
+                  <text><reference value="#result2"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20020218"/>
+                  <value xsi:type="PQ" value="114.2" unit="g/dl"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="a8c456a9-a6a8-4895-b946-42c99baadeda"/>
+              <code code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="43d73d96-092f-49ea-9ac5-7af6d7ae25a2"/>
+                  <code xsi:type="CE" code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
+                  <text><reference value="#result3"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20020218"/>
+                  <value xsi:type="PQ" value="40.0" unit="%"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="e5fbc4f7-e1bb-4894-ac7c-0e5dd846db6b"/>
               <code code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="6df398d9-efac-40cd-9ef2-5f7ef0f39f61"/>
+                  <id root="e2f2bd20-a29b-4525-93cd-e18931980ea1"/>
                   <code xsi:type="CE" code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
-                  <text><reference value="#result2"/></text>
+                  <text><reference value="#result4"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20020218"/>
+                  <value xsi:type="PQ" value="4.7" unit="10*6/uL"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="4cc0277c-079d-4afa-8543-277270c2aea2"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="ac3a5bc4-e76e-4cf6-9d7c-125eabdb3a5b"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
+                  <text><reference value="#result5"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20020218"/>
+                  <value xsi:type="PQ" value="136.0" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="c3651e3d-b15f-4f80-973a-17b830957957"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="3e773893-238c-4ca4-aab7-c6b2bd4c7f56"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
+                  <text><reference value="#result6"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20020218"/>
+                  <value xsi:type="PQ" value="3.4" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="27382aac-b718-4f7c-b2d9-49e1fb8a93f5"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="4e03f0c3-ee04-4658-8f89-912f6cc8f994"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
+                  <text><reference value="#result7"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20020218"/>
+                  <value xsi:type="PQ" value="100.0" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="b39b1619-31e4-4571-8484-4c661a592ba9"/>
+              <code code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="ea54ac0e-6985-4251-8467-b1ce35707250"/>
+                  <code xsi:type="CE" code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
+                  <text><reference value="#result8"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20020218"/>
+                  <value xsi:type="ST">Mild-moderate LV enlargement</value>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="1b9c3b0c-6881-4548-ba31-7be17e6391e6"/>
+              <code code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="86ce82e9-6970-4d72-8f05-c06ace17a3da"/>
+                  <code xsi:type="CE" code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
+                  <text><reference value="#result9"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20020218"/>
+                  <value xsi:type="ST">Normal</value>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="53d0d026-c558-4eca-9c9d-362dd5cc4462"/>
+              <code code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="6a4577ec-5ff0-4c16-9068-8d6aab9887fc"/>
+                  <code xsi:type="CE" code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
+                  <text><reference value="#result10"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20020218"/>
+                  <value xsi:type="PQ" value="96.0" unit="%"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="be025749-fe02-492f-b7d0-c62f0a8a6418"/>
+              <code code="4548-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin A1C"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="0b7469c7-0083-46d4-834d-234231133f34"/>
+                  <code xsi:type="CE" code="4548-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin A1C"/>
+                  <text><reference value="#result11"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20050421"/>
+                  <value xsi:type="PQ" value="10.2" unit="%"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="ff5a52ca-e593-4473-a3b7-399b687abc75"/>
+              <code code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="ffad8b1b-c354-40ed-a48d-c93192f972ac"/>
+                  <code xsi:type="CE" code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
+                  <text><reference value="#result12"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20050421"/>
+                  <value xsi:type="PQ" value="14.0" unit="g/dl"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="246dbba8-6fe9-48b3-8401-fbbdd22d70c6"/>
+              <code code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="e79742b2-5dcf-4579-a4e5-68ae860c01ff"/>
+                  <code xsi:type="CE" code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
+                  <text><reference value="#result13"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20050421"/>
+                  <value xsi:type="PQ" value="42.0" unit="%"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="eca830a4-91fc-4a91-a14e-e3d22ebcca5d"/>
+              <code code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="f7b29079-277b-41c9-8106-7148e80d490c"/>
+                  <code xsi:type="CE" code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
+                  <text><reference value="#result14"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20050421"/>
+                  <value xsi:type="PQ" value="4.6" unit="10*6/uL"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="a4202736-13e9-4dc0-96b2-56a0862e3a17"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="992a4ea3-ea18-4d9a-97ce-9d05bd9f4a25"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
+                  <text><reference value="#result15"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20050421"/>
+                  <value xsi:type="PQ" value="138.0" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="80026259-eaa9-468e-8adc-87596b384f9c"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="fe6bd6d9-1ffe-4bb5-85b5-8b1f41716351"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
+                  <text><reference value="#result16"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20050421"/>
+                  <value xsi:type="PQ" value="3.6" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="a6697181-1abf-491a-819e-412542f93f1a"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="e6bc355f-b3f0-46b7-a8cb-49b719e99760"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
+                  <text><reference value="#result17"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20050421"/>
+                  <value xsi:type="PQ" value="104.0" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="baa3940a-288b-4f15-923c-222d15876dfa"/>
+              <code code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="29f03871-28bd-40dd-95c6-99172e1f25b6"/>
+                  <code xsi:type="CE" code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
+                  <text><reference value="#result18"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20050421"/>
+                  <value xsi:type="ST">Mild-moderate LV enlargement</value>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="715f0143-971b-4a04-84bf-4b31830dfd3d"/>
+              <code code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="a7979d9a-dc68-46e2-9070-4472b2d70d23"/>
+                  <code xsi:type="CE" code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
+                  <text><reference value="#result19"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20050421"/>
+                  <value xsi:type="ST">Possible early LVH</value>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="167c21c3-32a5-4654-a0ce-2ddc6efce11d"/>
+              <code code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="145ea865-9dd6-472b-9fc0-45ca751c9d9f"/>
+                  <code xsi:type="CE" code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
+                  <text><reference value="#result20"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20050421"/>
+                  <value xsi:type="PQ" value="94.0" unit="%"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="48d3a514-61b7-4a8a-8716-ec8413c37fc5"/>
+              <code code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="b9441479-7a4f-469f-9fd0-0bda0652c8dd"/>
+                  <code xsi:type="CE" code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
+                  <text><reference value="#result21"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20081104"/>
                   <value xsi:type="PQ" value="4.6" unit="10*6/uL"/>
@@ -1133,15 +1790,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="658bfff9-9eef-4324-bee0-dd48feb518d6"/>
+              <id root="e0d65ff9-fff7-49bf-8be4-218c4d1341ff"/>
               <code code="6690-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="WBC"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="e7072206-5537-4db7-a246-4e5daafd202a"/>
+                  <id root="e5c542e4-7afb-4f07-a308-8edf922d7c59"/>
                   <code xsi:type="CE" code="6690-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="WBC"/>
-                  <text><reference value="#result3"/></text>
+                  <text><reference value="#result22"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20081104"/>
                   <value xsi:type="PQ" value="12.0" unit="10*3/ul"/>
@@ -1152,15 +1809,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="6fd09f34-3189-40df-b64f-1e33d03d385b"/>
+              <id root="77610eb7-1aa7-4b0f-a32f-3f68191feff1"/>
               <code code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="6e8c7cc4-b4d5-4e5a-9a98-e9b727cdbaef"/>
+                  <id root="6784e33f-8771-4d40-bbd4-0847b907af25"/>
                   <code xsi:type="CE" code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
-                  <text><reference value="#result4"/></text>
+                  <text><reference value="#result23"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20081104"/>
                   <value xsi:type="ST">R lower lobe consolidation</value>
@@ -1171,18 +1828,18 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="c3ee95c9-c9c7-457f-8c8c-b75653d95a3d"/>
+              <id root="17678c67-311d-4728-bef7-c9044b42f15f"/>
               <code code="4548-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin A1C"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="ea2a9d2a-5afa-442b-aee7-150798f7a903"/>
+                  <id root="a61061f1-74d9-473e-b36f-99e6f52c6760"/>
                   <code xsi:type="CE" code="4548-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin A1C"/>
-                  <text><reference value="#result5"/></text>
+                  <text><reference value="#result24"/></text>
                   <statusCode code="completed"/>
-                  <effectiveTime value="20090420"/>
-                  <value xsi:type="PQ" value="9.2" unit="%"/>
+                  <effectiveTime value="20081104"/>
+                  <value xsi:type="PQ" value="9.0" unit="%"/>
                 </observation>
               </component>
             </organizer>
@@ -1190,15 +1847,357 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="276d8777-6132-4749-b558-da156ae37403"/>
+              <id root="23b546ee-12c8-4242-a79d-423f1d8b8576"/>
               <code code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="91044f72-e079-4d7a-8c86-1e4e5b22670c"/>
+                  <id root="87658566-6250-45e3-8adf-ce06c085421e"/>
                   <code xsi:type="CE" code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
-                  <text><reference value="#result6"/></text>
+                  <text><reference value="#result25"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20081104"/>
+                  <value xsi:type="PQ" value="13.0" unit="g/dl"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="26a58930-1c87-4644-820e-a589cee2aa3a"/>
+              <code code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="d45084c3-f416-46ad-8321-10c67fb20eef"/>
+                  <code xsi:type="CE" code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
+                  <text><reference value="#result26"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20081104"/>
+                  <value xsi:type="PQ" value="40.0" unit="%"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="19072dd1-9f32-483f-93fe-cf4119c20f0c"/>
+              <code code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="3ff07032-0870-4bec-934b-ece68034d4e7"/>
+                  <code xsi:type="CE" code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
+                  <text><reference value="#result27"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20081104"/>
+                  <value xsi:type="PQ" value="4.7" unit="10*6/uL"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="b82e4e59-69cb-4b1c-a600-41cbff3999ba"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="2ddb2301-9f5c-4b85-846c-4e6ea62c2bd7"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
+                  <text><reference value="#result28"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20081104"/>
+                  <value xsi:type="PQ" value="144.0" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="7c64eeb4-5679-4620-bfcd-25decf851e0c"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="154e12df-bedc-41b5-beab-15a8e0c52a0e"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
+                  <text><reference value="#result29"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20081104"/>
+                  <value xsi:type="PQ" value="3.5" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="e0a9288f-5cfa-4290-9506-592b8ef933f6"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="30b5b7ee-fe80-4a98-8118-23fc1e147957"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
+                  <text><reference value="#result30"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20081104"/>
+                  <value xsi:type="PQ" value="102.0" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="4b7bbd1e-cf9e-423b-974a-c7c6ffaf5a3f"/>
+              <code code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="c3838678-9303-4217-8d01-7dc9f6519c4d"/>
+                  <code xsi:type="CE" code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
+                  <text><reference value="#result31"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20081104"/>
+                  <value xsi:type="ST">Possible early LVH</value>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="94b23f96-fa34-42fa-a99e-928141ae1aa0"/>
+              <code code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="11c50604-a08b-4cf9-9817-854ba64a06b7"/>
+                  <code xsi:type="CE" code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
+                  <text><reference value="#result32"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20081104"/>
+                  <value xsi:type="PQ" value="94.0" unit="%"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="d7817b5d-e8ae-4b11-9687-c94a3e85ebba"/>
+              <code code="4548-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin A1C"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="93ee9e4d-8abf-4de4-823a-bab6d63e7bcb"/>
+                  <code xsi:type="CE" code="4548-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin A1C"/>
+                  <text><reference value="#result33"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20090420"/>
+                  <value xsi:type="PQ" value="10.4" unit="%"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="c2bacb6d-95a8-4c76-89ef-78719d45e84b"/>
+              <code code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="ba8e29b9-b305-4d0c-b963-00543d29ebd1"/>
+                  <code xsi:type="CE" code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
+                  <text><reference value="#result34"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20090420"/>
+                  <value xsi:type="PQ" value="13.5" unit="g/dl"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="d0aa9ec3-25e3-45be-8d27-99aad9d3a2af"/>
+              <code code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="e05856ef-6261-49d5-85db-96bdb63b5111"/>
+                  <code xsi:type="CE" code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
+                  <text><reference value="#result35"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20090420"/>
+                  <value xsi:type="PQ" value="40.0" unit="%"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="4570c250-89d7-4728-bdec-5aa1e3f448cd"/>
+              <code code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="2ab59413-4c0c-4921-89b4-4a2611bd634c"/>
+                  <code xsi:type="CE" code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
+                  <text><reference value="#result36"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20090420"/>
+                  <value xsi:type="PQ" value="4.5" unit="10*6/uL"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="8436033d-1217-465a-b004-6428264d8e4e"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="fd9eeddb-fad8-46e5-9362-ca4fe7e572ea"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
+                  <text><reference value="#result37"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20090420"/>
+                  <value xsi:type="PQ" value="140.0" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="2ce3c590-f3eb-417b-b565-1e917c4a1a21"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="5f53c9ad-f8da-4047-8528-2c12cd292bb6"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
+                  <text><reference value="#result38"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20090420"/>
+                  <value xsi:type="PQ" value="3.3" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="bf4ef56e-c243-42dd-85bb-680833780bec"/>
+              <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="9bb6e9cd-1b8a-4b4e-b45a-37a2a2e484ef"/>
+                  <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
+                  <text><reference value="#result39"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20090420"/>
+                  <value xsi:type="PQ" value="100.0" unit="mEq/L "/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="045d1921-fa72-418b-be07-34ddb67a0f95"/>
+              <code code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="665189e6-263d-490b-b480-9b5e4d849b71"/>
+                  <code xsi:type="CE" code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
+                  <text><reference value="#result40"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20090420"/>
+                  <value xsi:type="ST">Mild-moderate LV enlargement</value>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="2a869816-fd13-4b5c-a5b5-5ee433d2cd68"/>
+              <code code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="27cd57f7-8c84-4824-9ca2-c7a8b5bf5cd7"/>
+                  <code xsi:type="CE" code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
+                  <text><reference value="#result41"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20090420"/>
+                  <value xsi:type="ST">Possible early LVH</value>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="7a4bf8b4-53fd-4ab3-a878-d50db7975a0c"/>
+              <code code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="034f6e70-9a32-4ea0-869e-b33bbe4b1887"/>
+                  <code xsi:type="CE" code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
+                  <text><reference value="#result42"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20090420"/>
+                  <value xsi:type="PQ" value="93.0" unit="%"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="44e791dc-5c19-4322-bdff-7618eb3deb97"/>
+              <code code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
+              <statusCode code="completed"/>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="7d2ce090-4372-4bd4-8338-a4201b536147"/>
+                  <code xsi:type="CE" code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
+                  <text><reference value="#result43"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20110423"/>
                   <value xsi:type="PQ" value="12.5" unit="g/dl"/>
@@ -1209,15 +2208,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="53b8635b-be84-4445-879a-2bdceaf5ea07"/>
+              <id root="2b03a0a7-c8b7-4c37-a276-6a9dcbe9cc3e"/>
               <code code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="0b8211fa-302a-4716-a912-197777dacbce"/>
+                  <id root="b3fccc9b-0241-4abb-9c2b-eb764cd4b9cf"/>
                   <code xsi:type="CE" code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
-                  <text><reference value="#result7"/></text>
+                  <text><reference value="#result44"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20110423"/>
                   <value xsi:type="PQ" value="40.0" unit="%"/>
@@ -1228,15 +2227,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="b11cf835-818c-4656-acca-c13bb0a61388"/>
+              <id root="9fedd355-ae3d-4f67-97b5-6afee64b9344"/>
               <code code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="6eb896d7-a8fe-4d87-bbfb-1980dd06a67d"/>
+                  <id root="efd35c77-0459-4cf5-8ae5-aadd63b34040"/>
                   <code xsi:type="CE" code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
-                  <text><reference value="#result8"/></text>
+                  <text><reference value="#result45"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20110423"/>
                   <value xsi:type="PQ" value="4.2" unit="10*6/uL"/>
@@ -1247,15 +2246,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="f3f06a2e-76da-4a47-9342-8a1f73d47eb7"/>
+              <id root="8da522b7-9eed-4b00-8ee0-8fb7e2acc2ba"/>
               <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="d9dc5761-0063-49eb-9e06-7600b2d1c8cb"/>
+                  <id root="7502e701-65fd-446e-8722-58e1e08473c9"/>
                   <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
-                  <text><reference value="#result9"/></text>
+                  <text><reference value="#result46"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20110423"/>
                   <value xsi:type="PQ" value="137.0" unit="mEq/L "/>
@@ -1266,15 +2265,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="6016509c-fabd-443b-84fc-d2a0210e64fe"/>
+              <id root="36a38f81-a371-4fb2-aeaf-5afd65f7699e"/>
               <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="a92a50bb-fa1a-47e3-bb19-77d15db06072"/>
+                  <id root="a68aff6a-f7a1-44e7-9b99-e3da7575b3b0"/>
                   <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
-                  <text><reference value="#result10"/></text>
+                  <text><reference value="#result47"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20110423"/>
                   <value xsi:type="PQ" value="3.4" unit="mEq/L "/>
@@ -1285,15 +2284,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="154d5142-7ac9-4452-9aee-f986b922f8bb"/>
+              <id root="6227e3f5-0d56-4966-a64b-e1b2b4c85168"/>
               <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="44a94355-dff7-4d11-8746-7c8be1e7d02f"/>
+                  <id root="7a0b3629-dfc7-4660-bba5-272c05964817"/>
                   <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
-                  <text><reference value="#result11"/></text>
+                  <text><reference value="#result48"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20110423"/>
                   <value xsi:type="PQ" value="98.0" unit="mEq/L "/>
@@ -1304,15 +2303,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="98087f54-3e4b-41fd-b592-aeda05f2a6e0"/>
+              <id root="211412f7-0985-4bc7-8b2b-e9fd3a608373"/>
               <code code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="fde6e571-4e8d-4681-9026-4a3a1f4bcec3"/>
+                  <id root="be983e78-b971-4b27-8edf-a7d899d57248"/>
                   <code xsi:type="CE" code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
-                  <text><reference value="#result12"/></text>
+                  <text><reference value="#result49"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20110423"/>
                   <value xsi:type="ST">Mild LV enlargement</value>
@@ -1323,15 +2322,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="36240b49-c6d9-484f-9d7f-e3a52544bf43"/>
+              <id root="14030f10-1f43-462d-8f90-c917cc76ecc9"/>
               <code code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="ce20df72-7456-473f-9af4-4b01550809ee"/>
+                  <id root="6d8ef4ea-adc5-44be-87a8-5f4197983102"/>
                   <code xsi:type="CE" code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
-                  <text><reference value="#result13"/></text>
+                  <text><reference value="#result50"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20110423"/>
                   <value xsi:type="ST">Possible early LVH</value>
@@ -1342,15 +2341,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="f1ac15c6-9830-4b2c-91c5-c13e8e8649d9"/>
+              <id root="f44af8df-ce3d-4877-ae6e-ffa7f2416c1f"/>
               <code code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="a795227d-2309-43e9-aa08-87ff760c1066"/>
+                  <id root="7466c2f9-b654-4c6c-989e-09ada9fe96ad"/>
                   <code xsi:type="CE" code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
-                  <text><reference value="#result14"/></text>
+                  <text><reference value="#result51"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20110423"/>
                   <value xsi:type="PQ" value="92.0" unit="%"/>
@@ -1361,17 +2360,17 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="e45c889d-b71a-4d89-9d7d-d984298a70f1"/>
+              <id root="eebc08b4-e86a-4787-9108-ebc7074a9836"/>
               <code code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="fd0d22be-e298-4f55-804c-cdd04bc8994f"/>
+                  <id root="bab9c32c-d135-4feb-b0a0-2340a8de396f"/>
                   <code xsi:type="CE" code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
-                  <text><reference value="#result15"/></text>
+                  <text><reference value="#result52"/></text>
                   <statusCode code="completed"/>
-                  <effectiveTime value="20110425"/>
+                  <effectiveTime value="20120425"/>
                   <value xsi:type="PQ" value="13.0" unit="g/dl"/>
                 </observation>
               </component>
@@ -1380,17 +2379,17 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="65525625-7382-475f-9ed3-b4929ebda4f2"/>
+              <id root="db701f88-d413-4c92-ab0a-15d0f32e42c4"/>
               <code code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="1dcebb6e-7e82-4155-b817-ecaf01660f8d"/>
+                  <id root="93f8cd57-a06b-4e31-a30d-45d5642ce2ce"/>
                   <code xsi:type="CE" code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
-                  <text><reference value="#result16"/></text>
+                  <text><reference value="#result53"/></text>
                   <statusCode code="completed"/>
-                  <effectiveTime value="20110425"/>
+                  <effectiveTime value="20120425"/>
                   <value xsi:type="PQ" value="40.0" unit="%"/>
                 </observation>
               </component>
@@ -1399,17 +2398,17 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="58ad2483-7cf5-4e84-9530-61bbfa91c309"/>
+              <id root="091861f2-4c16-43da-9ac3-0a92ad0bee29"/>
               <code code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="9cf3de7f-d61c-4e9d-ace2-407f3ae40c83"/>
+                  <id root="9b576d6b-179b-49a7-8c46-8e8e2a86dcde"/>
                   <code xsi:type="CE" code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
-                  <text><reference value="#result17"/></text>
+                  <text><reference value="#result54"/></text>
                   <statusCode code="completed"/>
-                  <effectiveTime value="20110425"/>
+                  <effectiveTime value="20120425"/>
                   <value xsi:type="PQ" value="4.4" unit="10*6/uL"/>
                 </observation>
               </component>
@@ -1418,17 +2417,17 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="73c5b2e5-70ce-404a-85f5-512b0813d84a"/>
+              <id root="676dbe68-942a-4043-b85a-dc340216ee66"/>
               <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="b59e4c70-28b3-431f-b16c-a53843a8b8ed"/>
+                  <id root="06ea7966-524e-46f2-b519-8084d0e4fe11"/>
                   <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
-                  <text><reference value="#result18"/></text>
+                  <text><reference value="#result55"/></text>
                   <statusCode code="completed"/>
-                  <effectiveTime value="20110425"/>
+                  <effectiveTime value="20120425"/>
                   <value xsi:type="PQ" value="132.0" unit="mEq/L "/>
                 </observation>
               </component>
@@ -1437,17 +2436,17 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="df27f56b-d2d7-45b4-863c-8e26921d8867"/>
+              <id root="49c01f42-811c-4a05-a42e-7a1205c8dec2"/>
               <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="3332689f-29fe-4956-896f-79be3e6e1bcf"/>
+                  <id root="525da5ea-e0b1-46f5-aa82-ad80c0436543"/>
                   <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
-                  <text><reference value="#result19"/></text>
+                  <text><reference value="#result56"/></text>
                   <statusCode code="completed"/>
-                  <effectiveTime value="20110425"/>
+                  <effectiveTime value="20120425"/>
                   <value xsi:type="PQ" value="3.2" unit="mEq/L "/>
                 </observation>
               </component>
@@ -1456,17 +2455,17 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="47ef5615-ee26-47bd-8bbd-220202d44118"/>
+              <id root="289332b2-3897-4ad1-b76a-c74e986a79e1"/>
               <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="7f738555-d00d-4b50-b0cd-2f77b280ab25"/>
+                  <id root="c32d4b6f-de99-4997-a753-3c6a26640bab"/>
                   <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
-                  <text><reference value="#result20"/></text>
+                  <text><reference value="#result57"/></text>
                   <statusCode code="completed"/>
-                  <effectiveTime value="20110425"/>
+                  <effectiveTime value="20120425"/>
                   <value xsi:type="PQ" value="92.0" unit="mEq/L "/>
                 </observation>
               </component>
@@ -1475,17 +2474,17 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="e4e32c48-4fa2-4ad0-a3dd-d68bdf4b76c5"/>
+              <id root="2081d4cf-c580-4540-8d9e-42126b7c8e8d"/>
               <code code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="f7ecbd19-59f1-407f-b0f2-263fde3cb7c6"/>
+                  <id root="fd91885d-5185-4a15-a780-c94c320eca2b"/>
                   <code xsi:type="CE" code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
-                  <text><reference value="#result21"/></text>
+                  <text><reference value="#result58"/></text>
                   <statusCode code="completed"/>
-                  <effectiveTime value="20110425"/>
+                  <effectiveTime value="20120425"/>
                   <value xsi:type="ST">Mild LV enlargement</value>
                 </observation>
               </component>
@@ -1494,17 +2493,17 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="3e36e620-64b4-41f5-b7bf-4cdeb6d5f006"/>
+              <id root="07db9d8d-cd9a-4811-afd0-963c04a3c14f"/>
               <code code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="095ab7ae-5559-4862-a0de-60bff8a9b34a"/>
+                  <id root="557db123-a3b3-46de-9d70-432abfd79faa"/>
                   <code xsi:type="CE" code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
-                  <text><reference value="#result22"/></text>
+                  <text><reference value="#result59"/></text>
                   <statusCode code="completed"/>
-                  <effectiveTime value="20110425"/>
+                  <effectiveTime value="20120425"/>
                   <value xsi:type="ST">Possible early LVH</value>
                 </observation>
               </component>
@@ -1513,17 +2512,17 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="778934db-1b4f-4799-9224-c70093b2220a"/>
+              <id root="2df4458f-52fb-4701-b474-f8c322a46d71"/>
               <code code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="a75327cb-a778-48e4-ab6a-61a8210c6537"/>
+                  <id root="bc33ebed-0430-4a72-bff7-b19b1dc958f5"/>
                   <code xsi:type="CE" code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
-                  <text><reference value="#result23"/></text>
+                  <text><reference value="#result60"/></text>
                   <statusCode code="completed"/>
-                  <effectiveTime value="20110425"/>
+                  <effectiveTime value="20120425"/>
                   <value xsi:type="PQ" value="90.0" unit="%"/>
                 </observation>
               </component>
@@ -1532,15 +2531,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="0d23395a-32f1-45ec-bb3c-59ef58cedfea"/>
+              <id root="e55ee129-4c13-40ea-a797-da486567a13a"/>
               <code code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="d4353fc4-01b0-4818-8d7a-f9a26638197f"/>
+                  <id root="ab663ebb-b6a7-48e8-b88d-170e7d0898a2"/>
                   <code xsi:type="CE" code="4635-9 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hemoglobin"/>
-                  <text><reference value="#result24"/></text>
+                  <text><reference value="#result61"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20130426"/>
                   <value xsi:type="PQ" value="13.0" unit="g/dl"/>
@@ -1551,15 +2550,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="50b4fd06-355c-49d6-af31-7fe0a6e8779f"/>
+              <id root="5a7c8bbe-bf16-4c23-ae35-766cb0b7ccb3"/>
               <code code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="db2cdc06-61d8-47dc-ba32-77b0eefad75c"/>
+                  <id root="c9b484dd-c83d-4591-ae75-564df1fe0fab"/>
                   <code xsi:type="CE" code="20570-8 " codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hematocrit"/>
-                  <text><reference value="#result25"/></text>
+                  <text><reference value="#result62"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20130426"/>
                   <value xsi:type="PQ" value="40.0" unit="%"/>
@@ -1570,15 +2569,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="a82df8db-4910-4cfc-81bf-bec85b529a1b"/>
+              <id root="64314acb-5ecb-4133-b1b2-db1047a44352"/>
               <code code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="41aaff93-85a7-49db-b655-d22b48f8d88d"/>
+                  <id root="e7b9a716-91af-4816-8afc-9fe78fddae9c"/>
                   <code xsi:type="CE" code="789-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RBC"/>
-                  <text><reference value="#result26"/></text>
+                  <text><reference value="#result63"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20130426"/>
                   <value xsi:type="PQ" value="4.3" unit="10*6/uL"/>
@@ -1589,15 +2588,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="a2e1f2dd-1d86-4198-bc0f-2c6bdacea8fe"/>
+              <id root="993d61d5-c8cd-4ed3-a0aa-b264ad57ca3a"/>
               <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="4a4231a2-a7a1-4e89-8578-78ad8a300670"/>
+                  <id root="1a206621-97b3-4613-824b-4f7090f6da02"/>
                   <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Sodium"/>
-                  <text><reference value="#result27"/></text>
+                  <text><reference value="#result64"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20130426"/>
                   <value xsi:type="PQ" value="130.0" unit="mEq/L "/>
@@ -1608,15 +2607,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="f5cc546c-d572-4253-a5b8-9035cb756224"/>
+              <id root="2d36c84d-75c1-4467-b7ba-7f6724389a51"/>
               <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="e38537e2-e16c-4fe3-ba45-9c55ce9efbee"/>
+                  <id root="5307d060-e6a8-4819-a33e-314bbb62b7d5"/>
                   <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Potassium"/>
-                  <text><reference value="#result28"/></text>
+                  <text><reference value="#result65"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20130426"/>
                   <value xsi:type="PQ" value="3.4" unit="mEq/L "/>
@@ -1627,15 +2626,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="3fedea04-2206-4279-9082-4a158c5394b3"/>
+              <id root="09fc4bd3-5b87-405c-bc01-f0ebf9e6c962"/>
               <code code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="3f360acd-d20e-4dff-9e8e-77f9a134faad"/>
+                  <id root="6d825295-9529-4b01-9fab-c525e6e5a54d"/>
                   <code xsi:type="CE" code="24326-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Serum Chloride"/>
-                  <text><reference value="#result29"/></text>
+                  <text><reference value="#result66"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20130426"/>
                   <value xsi:type="PQ" value="88.0" unit="mEq/L "/>
@@ -1646,15 +2645,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="f7b2f697-f288-4073-a5c2-fb2824281132"/>
+              <id root="92bcc686-1ed5-4d8f-a6a5-eae5e223f7d4"/>
               <code code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="4645b8ef-046a-4caf-ab41-22e9b4c413fc"/>
+                  <id root="a81660ab-3af8-4a66-aa90-dd6a96e01fde"/>
                   <code xsi:type="CE" code="42100-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Chest X-ray"/>
-                  <text><reference value="#result30"/></text>
+                  <text><reference value="#result67"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20130426"/>
                   <value xsi:type="ST">Mild-moderate LV enlargement</value>
@@ -1665,15 +2664,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="375aabda-ab3e-4a29-b37c-27b5bd6e6ca7"/>
+              <id root="f73b5def-60ac-42a2-929e-cbb630ee88b7"/>
               <code code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="61880844-b2e3-45c7-9673-21a038bd9f06"/>
+                  <id root="d1afff9e-4e44-454b-a1b9-275a84a146e5"/>
                   <code xsi:type="CE" code="8601-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ECG"/>
-                  <text><reference value="#result31"/></text>
+                  <text><reference value="#result68"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20130426"/>
                   <value xsi:type="ST">Early LVH</value>
@@ -1684,15 +2683,15 @@
           <entry typeCode="DRIV">
             <organizer classCode="BATTERY" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
-              <id root="41180f27-aab1-40b8-bde2-90a1a064e4c8"/>
+              <id root="94deb4a3-7e3f-4ba9-a272-4a0aa108bffa"/>
               <code code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
               <statusCode code="completed"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
-                  <id root="52a441c6-330d-4767-b0e6-4891e450525e"/>
+                  <id root="d07e936a-ea17-4c33-a125-76a57e0699c2"/>
                   <code xsi:type="CE" code="59408-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Pulse Ox"/>
-                  <text><reference value="#result32"/></text>
+                  <text><reference value="#result69"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20130426"/>
                   <value xsi:type="PQ" value="84.0" unit="%"/>
@@ -1772,14 +2771,14 @@
           <entry typeCode="DRIV">
             <organizer classCode="CLUSTER" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
-              <id root="1ce732f7-25c2-45ea-9f79-3473798b98d1"/>
+              <id root="9c6af1de-4cde-4d04-b3f7-fbd73d3447df"/>
               <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
               <statusCode code="completed"/>
               <effectiveTime value="20111101"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
-                  <id root="76eab9cc-f96c-4573-a384-0fe794944120"/>
+                  <id root="ca6ffd1e-7603-443a-82ea-1c570275a600"/>
                   <code code="8302-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Height"/>
                   <text><reference value="#vit1"/></text>
                   <statusCode code="completed"/>
@@ -1791,7 +2790,7 @@
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
-                  <id root="4daf33eb-37d4-4678-b019-0584045371d2"/>
+                  <id root="23a98250-fb24-432e-be57-f78d18bc6e6e"/>
                   <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Patient Body Weight - Measured"/>
                   <text><reference value="#vit2"/></text>
                   <statusCode code="completed"/>
@@ -1803,7 +2802,7 @@
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
-                  <id root="dd728fe1-79cb-4b95-8c5f-ff474d799639"/>
+                  <id root="49ddedf1-a6fc-47de-b9a6-c92501def2fe"/>
                   <code code="8480-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Intravascular Systolic"/>
                   <text><reference value="#vit3"/></text>
                   <statusCode code="completed"/>
@@ -1817,14 +2816,14 @@
           <entry typeCode="DRIV">
             <organizer classCode="CLUSTER" moodCode="EVN">
               <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
-              <id root="e1d9f04c-a0d7-4784-bc8c-34f30278272f"/>
+              <id root="c09be4b2-fc4e-48ba-9b3c-0b68541e4fd0"/>
               <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
               <statusCode code="completed"/>
               <effectiveTime value="20120806"/>
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
-                  <id root="6e809f0e-bc4f-4e4d-a177-9d27922205e5"/>
+                  <id root="42252cd8-e10e-4b96-bb05-981139b2d1bb"/>
                   <code code="8302-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Height"/>
                   <text><reference value="#vit4"/></text>
                   <statusCode code="completed"/>
@@ -1836,7 +2835,7 @@
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
-                  <id root="8d1fa200-b58d-4453-94d5-1e06f651f2eb"/>
+                  <id root="7663e499-93cc-4e1b-83e7-4ff6979f6c7f"/>
                   <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Patient Body Weight - Measured"/>
                   <text><reference value="#vit5"/></text>
                   <statusCode code="completed"/>
@@ -1848,7 +2847,7 @@
               <component>
                 <observation classCode="OBS" moodCode="EVN">
                   <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
-                  <id root="ebf83987-b4ed-454f-bfed-d6e9b0371e15"/>
+                  <id root="1f5a7568-5228-4fc4-800b-5911be637a2f"/>
                   <code code="8480-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Intravascular Systolic"/>
                   <text><reference value="#vit6"/></text>
                   <statusCode code="completed"/>
