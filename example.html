@@ -45,6 +45,7 @@ $(document).ready(function(){
 <script>
 	var chart = c3.generate({
 		bindto: '#timeseriesPulseOx',
+		padding: {right: 50,},
 		data: {
 			x : 'Date',
 			xFormat : '%Y%d%m',
@@ -53,17 +54,27 @@ $(document).ready(function(){
 				['Pulse Ox Percent', 96, 94, 94, 93, 92, 90, 84]
 			]
 		},
+		regions : [
+			{start: '20120425', end: '20130426', class: 'bad'}
+		],
 		grid :{
 			y : {
 				lines : [{ value: 90, text : 'Respiratory function impacted!'}],
-				//color: '#FF0000'
 			}
 		},
 		axis : {
 			x : {
 				type: 'timeseries',
 				tick : {
-					format : "%d-%m-%Y"
+					format : "%d-%m-%Y",
+					rotate : 45,
+				},
+			height: 60
+			},
+			y : {
+				label : {
+					text : 'Pulse Ox %',
+					position : 'outer-middle'
 				}
 			}
 		}

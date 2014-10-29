@@ -2,3 +2,20 @@
 	max-width: 600px;
 	max-hight: 300px;
 }
+
+.c3-line-data1 {
+	stroke-width: 2px;
+}
+
+.c3-ygrid-line line {
+	stroke-width: 3px;
+	stroke: red;
+}
+
+.c3-region.good {
+	fill: green;
+}
+
+.c3-region.bad {
+	fill: red;
+}
