@@ -1,10 +1,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>jQuery.parseXML demo</title>
+  <title>jQuery.parseXML demo, now with Chart Demo</title>
+  <link href="css/c3.css" rel="stylesheet" type="text/css">
+  <link href="css/jquery.qtip.min.css" rel="stylesheet" type="text/css"/>
+  <link href="css/bettEHR.css" rel="stylesheet" type="text/css">
   <script src="src/jquery.js"></script>
   <script src="src/xmltojson.js"></script>
   <script src="src/parse.js"></script>
+  <script src="src/d3.min.js"></script>
+  <script src="src/c3.js"></script>
+  <script src="src/jquery.qtip.min.js"></script>
+  
 </head>
 <body>
  
@@ -38,6 +45,58 @@ $(document).ready(function(){
 	});
 });
 </script>
- 
+<div class="chartToolTip">
+	<p>(hover for chart) Pulse Ox 84%</p>
+</div>
+<div class="hidden c3" id="timeseriesPulseOx" style="max-height: 300px; max-width: 600px; position: relative">/div>
+<script>
+	var chart = c3.generate({
+		bindto: '#timeseriesPulseOx',
+		data: {
+			x : 'Date',
+			xFormat : '%Y%d%m',
+			columns : [
+				['Date', '20020218','20050421','20081104','20090420','20110423','20120425','20130426'],
+				['Pulse Ox Percent', 96, 94, 94, 93, 92, 90, 84]
+			]
+		},
+		grid :{
+			y : {
+				lines : [{ value: 90, text : 'Respiratory function impacted!'}],
+				//color: '#FF0000'
+			}
+		},
+		axis : {
+			x : {
+				type: 'timeseries',
+				tick : {
+					format : "%d-%m-%Y"
+				}
+			}
+		}
+	});
+</script>
+<script>
+$('.chartToolTip').each(function () {
+	$(this).qtip({
+		content: {
+			text: $(this).next('div')
+		}, 
+		position : {
+			my: 'top left',
+			at: 'bottom left',
+			target: $(this)
+			//target: 'mouse'
+		},
+		style : {
+			classes: 'qtip-tooltip-large qtip-bootstrap',
+			width : 600,
+			height : 300
+		}
+	});
+});
+</script>
+
+
 </body>
 </html>
