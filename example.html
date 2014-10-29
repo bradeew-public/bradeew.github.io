@@ -3,6 +3,7 @@
   <meta charset="utf-8">
   <title>jQuery.parseXML demo</title>
   <script src="src/jquery.js"></script>
+  <script src="src/xmltojson.js"></script>
   <script src="src/parse.js"></script>
 </head>
 <body>
@@ -21,13 +22,19 @@ window.onerror=function(msg, url, linenumber){
 
 
 <script>
-$(document).ready(function(){
+function parseXML (xml) {
+		var j = $.xml2json(xml);
+		getDemographicInfo(xml)
+		getEncounters(j)
+}
 
+$(document).ready(function(){
+	
 	$.ajax({
 		type: "GET",
 		url: "CCD/modified_marla_CCD.xml",
 		dataType: "xml",
-		success: getDemographicInfo
+		success: parseXML
 	});
 });
 </script>
