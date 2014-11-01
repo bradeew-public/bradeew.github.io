@@ -17,19 +17,23 @@ function getDemographicInfo(document){
 	$("#anotherElement").append("Ethnic: " + ethnic + br)
 
 }
-//getEncounters using json
-function getEncounters(data){
+//use json to get array of json objects
+function getData(data, index){
 	var components = data.component.structuredBody.component
-	var allergy = components[0]
-	var com = components[1].section.text[0].table
+	var com = components[index].section.text[0].table
 	labels = getTableHeader(com.thead)
 	values = getValues(com.tbody, labels)
 
-	//values is an array of json objects with uniform structure
-	// below will print all fields
+	return values
+}	
+
+
+// this is just a placeholder to print all values
+function appendValues(values, name){
+	$("#anotherElement").append(br + 'Section ' + name + br)
+	
 	for(var x in values) {
-		
-		$("#anotherElement").append(br +  "Encounter" + x + br)
+		$("#anotherElement").append(br + name + ' ' + x + br)
 		for (var y in values[x]){
 			$("#anotherElement").append(y + ": " + values[x][y]+ br)
 		}
@@ -41,7 +45,6 @@ function getTableHeader(head){
 	var labels = []
 	var values = head.tr.th
 	
-	$("#anotherElement").append("aaaa" + values + br)
 	for(var v in values){
 		labels[labels.length] = values[v]
 	}
@@ -55,7 +58,15 @@ function getValues(body, labels){
 		var encounter = encounters[v].td
 		var newEncounter = {}
 		for(var u in encounter){
-			newEncounter[labels[u]] = encounter[u]
+			if (typeof encounter[u] != "string"){
+				if ('text' in encounter[u]){
+					newEncounter[labels[u]] = encounter[u]
+				}	else{
+					newEncounter[labels[u]] = encounter[u].content
+				}
+			} else {
+				newEncounter[labels[u]] = encounter[u]
+			}
 		}
 		values[values.length] = newEncounter	
 	}
