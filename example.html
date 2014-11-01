@@ -41,18 +41,20 @@ function parseXML (xml) {
 		var encounters = getData(j, 1);
 		var vaccinations = getData(j, 2);
 		var medications = getData(j, 3);
-		//getEncounters(j, 4)
+		//var problems = getEncounters(j, 4)
 		var testResults = getData(j, 5);
-		//var blank = getData(j, 6);
+		//var social = getData(j, 6);
 		var vitals = getData(j, 7);
 		
+		//use data to modify html
 		appendValues(allergies, "Allergies")
 		appendValues(encounters, "Encounters")
 		appendValues(vaccinations, "Vaccinations")
 		appendValues(medications, "Medications")
 		appendValues(testResults, "Test Results")
 		appendValues(vitals, "Vitals")
-		
+	
+		//use test results data to make chart
 		makeChart(testResults)
 
 }	
