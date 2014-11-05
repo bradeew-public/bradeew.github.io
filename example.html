@@ -34,6 +34,7 @@ window.onerror=function(msg, url, linenumber){
 </div>
 <div class="hidden c3" id="timeseriesPulseOx" style="max-height: 300px; max-width: 600px; position: relative"></div>
 <script>
+var testResults;
 function parseXML (xml) {
 		var j = $.xml2json(xml);
 		getDemographicInfo(xml);
@@ -42,7 +43,7 @@ function parseXML (xml) {
 		var vaccinations = getData(j, 2);
 		var medications = getData(j, 3);
 		//var problems = getEncounters(j, 4)
-		var testResults = getData(j, 5);
+		testResults = getData(j, 5);
 		//var social = getData(j, 6);
 		var vitals = getData(j, 7);
 		
