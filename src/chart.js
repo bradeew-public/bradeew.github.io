@@ -98,7 +98,7 @@ function getTestNameDateOrganizedTests(tests) {
 function getTestResultsArrayFromNameDate(test) {
 	var dates =[];
  	var results = [];
-	dates.push("Dates");
+	dates.push("Date");
 	results.push(test[Object.keys(test)[0]]['Short Name']);
 	console.log(results);
 	for(var d in test) {
@@ -107,4 +107,31 @@ function getTestResultsArrayFromNameDate(test) {
 		results.push(test[d]['Value']);
 	}
 	return [dates,results];
+}
+
+
+// Function to chart based on passed data. Untested
+function makeChartDynamic(testResultsArray, rangeLinesObject) {
+	var chart = c3.generate({
+		//bindto: '#timeseriesPulseOx',
+		//bindto: bindToID,
+		data: {
+			x: 'Date',
+			columns: testResultsArray
+		},
+		grid: {
+			y: {
+				//lines : [{ value: 90, text : 'Respiratory function impacted!'}]
+				lines: rangeLinesObject
+			}
+		},
+		axis: {
+			x: {
+				type: 'timeseries',
+				tick: {
+					format: "%Y-%m-%d"
+				}
+			}
+		}
+	});
 }
