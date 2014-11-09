@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html ng-app="bettehrApp">
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
@@ -8,6 +8,8 @@
     <link href="css/c3.css" rel="stylesheet"></link>
     <link href="css/jquery.qtip.min.css" rel="stylesheet"></link>
     <title>A better EHR</title>
+	<script src="src/angular.min.js"></script>
+	<script src="src/bettehrApp.js"></script>
 </head>
 <body>
 <div class="navbar navbar-inverse navbar-static-top">
@@ -29,10 +31,10 @@
         </div>
     </div>
 </div>
-<div class="panel panel-default" ng-app="" ng-controller="ccdController">
+<div class="panel panel-default" ng-controller="PatientInfo as pi">
     <div class="panel-heading">
         <h3 id="ptName" class="panel-title ng-cloak"
-            ng-bind-template="{{patientInfo.lastName }}, {{patientInfo.firstName}} - {{patientInfo.age}} - {{patientInfo.gender}}">loading ...</h3>
+            ng-bind-template="{{pi.lastName }}, {{pi.firstName}} - {{pi.age}} - {{pi.gender}}">loading ...</h3>
     </div>
     <div class="panel-body">
         <div class="row">
@@ -56,7 +58,11 @@
     <div class="panel-heading">
         <h3 class="panel-title">Tests</h3>
     </div>
-    <div class="panel-body">
+    <div class="panel-body" ng-controller="TestsController as testResults">
+		<h2>Date: {{testResults.date}} </h2>
+		<div class="testText" ng-repeat="test in testResults.tests">
+			<p> {{test.name}}: {{test.value}} {{test.unit}} {{test.additional}}</p>
+		</div>
         <div class="c3" id="timeseriesPulseOx" style="max-height: 300px; max-width: 600px; position: relative">
 
         </div>
@@ -79,7 +85,6 @@
 <script src="src/xmltojson.js"></script>
 <script src="src/d3.js"></script>
 <script src="src/c3.js"></script>
-<script src="src/angular.min.js"></script>
 <script>
     var testResults, allergies, encounters, vaccinations, medications, vitals;
     var xmlDoc;

@@ -55,6 +55,7 @@ function getAuthor(document){
         tel        : telNo
     };
 }
+/*
 function ccdController($scope, $http) {
     $http.get("CCD/modified_marla_CCD.xml")
         .success(function(response) {
@@ -65,3 +66,4 @@ function ccdController($scope, $http) {
             console.log(status);
         });
 }
+    */
