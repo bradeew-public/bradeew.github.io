@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
@@ -29,9 +29,10 @@
         </div>
     </div>
 </div>
-<div class="panel panel-default">
+<div class="panel panel-default" ng-app="" ng-controller="ccdController">
     <div class="panel-heading">
-        <h3 id="ptName" class="panel-title"></h3>
+        <h3 id="ptName" class="panel-title ng-cloak"
+            ng-bind-template="{{patientInfo.lastName }}, {{patientInfo.firstName}} - {{patientInfo.age}} - {{patientInfo.gender}}">loading ...</h3>
     </div>
     <div class="panel-body">
         <div class="row">
@@ -41,7 +42,7 @@
                 </a>
             </div>
             <div class="col-xs-6 col-md-3">
-                <p id="ptDemographics"></p>
+                <p id="ptDemographics" ></p>
             </div>
             <div class="col-xs-6 col-md-3">
                 <p id="reason"></p>
@@ -78,6 +79,7 @@
 <script src="src/xmltojson.js"></script>
 <script src="src/d3.js"></script>
 <script src="src/c3.js"></script>
+<script src="src/angular.min.js"></script>
 <script>
     var testResults, allergies, encounters, vaccinations, medications, vitals;
     var xmlDoc;

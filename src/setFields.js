@@ -10,10 +10,8 @@ function setPtInfo() {
     "<a href='tel:" + pi.tel + "'>" + pi.tel + "</a>");
 
     // Title
-    var now = new Date(); var bd = new Date (pi.birthDate);
-    var yearsOld = Math.floor((now - bd) / (365 * 24 * 60 * 60 * 1000));
-    $("#ptName").html(pi.lastName + ", " + pi.firstName + " - " + yearsOld + " - " +
-    (pi.gender == "F" ? "Female" : "Male"));
+     // $("#ptName").html(pi.lastName + ", " + pi.firstName + " - " + yearsOld + " - " +
+    // (pi.gender == "F" ? "Female" : "Male"));
 
     // Visit Reason -- where does this come from?
     $("#reason").html("<h4>Annual Physical</h4>"+

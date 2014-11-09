@@ -12,6 +12,10 @@ function getPatientInfo (document) {
     var bd = bt.substring(4,6) + "/" + bt.substring(6,8) + "/" + bt.substring(0,4);
     var telNo = pr.find('telecom').attr('value');
     telNo = telNo.substring(4, telNo.length);
+
+    var now = new Date(); var bdd = new Date (bd);
+    var yearsOld = Math.floor((now - bdd) / (365 * 24 * 60 * 60 * 1000));
+
     return {
         firstName  : patient.find('given').text(),
         lastName   : patient.find('family').text(),
@@ -26,7 +30,8 @@ function getPatientInfo (document) {
         state      : addr.find('state').text(),
         country    : addr.find('country').text(),
         postalCode : addr.find('postalCode').text(),
-        tel        : telNo
+        tel        : telNo,
+        age        : yearsOld
     };
 }
 
@@ -49,4 +54,14 @@ function getAuthor(document){
         postalCode : addr.find('postalCode').text(),
         tel        : telNo
     };
+}
+function ccdController($scope, $http) {
+    $http.get("CCD/modified_marla_CCD.xml")
+        .success(function(response) {
+            $scope.cxmlDoc = response;
+            $scope.patientInfo = getPatientInfo(response);
+            $scope.providerInfo = getAuthor(response);
+        }).error(function(data, status, headers, config){
+            console.log(status);
+        });
 }
