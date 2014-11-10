@@ -43,9 +43,9 @@ function getAuthor(document){
     telNo = telNo.substring(4, telNo.length);
 
     return {
-        firstName  : ap.find('given').text(),
-        lastName   : ap.find('family').text(),
-        prefix     : ap.find('prefix').text(),
+        firstName  : author.find('given').text(),
+        lastName   : author.find('family').text(),
+        prefix     : author.find('prefix').text(),
         TIN        : author.find("assignedAuthor").find('id').attr('extension'),
         street     : addr.find('streetAddressLine').text(),
         city       : addr.find('city').text(),
