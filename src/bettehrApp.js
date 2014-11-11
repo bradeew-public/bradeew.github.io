@@ -26,7 +26,9 @@
 		}
 	];
 
-	bettehrApp.controller('TestsController', function() {
+	bettehrApp.controller('TestsController', function($scope, parseXMLFactory) {
+		this.parseTest = parseXMLFactory.raw.testResults;
+		console.log(parseTest);
 		this.date = focusDate;
 		this.tests = testsOnDate;
 	});
