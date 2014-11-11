@@ -6,10 +6,12 @@
   <link href="css/jquery.qtip.min.css" rel="stylesheet" type="text/css"/>
   <link href="css/bettEHR.css" rel="stylesheet" type="text/css">
   <script src="src/jquery.js"></script>
+  <script src="src/xmltojson.js"></script>
   <script src="src/parse.js"></script>
   <script src="src/d3.min.js"></script>
   <script src="src/c3.js"></script>
   <script src="src/jquery.qtip.min.js"></script>
+  <script src="src/chart.js"></script>
   
 </head>
 <body>
@@ -27,80 +29,46 @@ window.onerror=function(msg, url, linenumber){
 </script>
 
 
+<div class="chartToolTip">
+	<p>(hover for chart) Pulse Ox 84%</p>
+</div>
+<div class="hidden c3" id="timeseriesPulseOx" style="max-height: 300px; max-width: 600px; position: relative"></div>
 <script>
-$(document).ready(function(){
+var testResults;
+function parseXML (xml) {
+		var j = $.xml2json(xml);
+		getDemographicInfo(xml);
+		var allergies = getData(j, 0);
+		var encounters = getData(j, 1);
+		var vaccinations = getData(j, 2);
+		var medications = getData(j, 3);
+		//var problems = getEncounters(j, 4)
+		testResults = getData(j, 5);
+		//var social = getData(j, 6);
+		var vitals = getData(j, 7);
+		
+		//use data to modify html
+		appendValues(allergies, "Allergies")
+		appendValues(encounters, "Encounters")
+		appendValues(vaccinations, "Vaccinations")
+		appendValues(medications, "Medications")
+		appendValues(testResults, "Test Results")
+		appendValues(vitals, "Vitals")
+	
+		//use test results data to make chart
+		makeChart(testResults)
 
+}	
+
+$(document).ready(function(){
+	
 	$.ajax({
 		type: "GET",
 		url: "CCD/modified_marla_CCD.xml",
 		dataType: "xml",
-		success: getDemographicInfo
+		success: parseXML
 	});
 });
 </script>
-<div class="chartToolTip">
-	<p>(hover for chart) Pulse Ox 84%</p>
-</div>
-<div class="hidden c3" id="timeseriesPulseOx" style="max-height: 300px; max-width: 600px; position: relative">/div>
-<script>
-	var chart = c3.generate({
-		bindto: '#timeseriesPulseOx',
-		padding: {right: 50,},
-		data: {
-			x : 'Date',
-			xFormat : '%Y%d%m',
-			columns : [
-				['Date', '20020218','20050421','20081104','20090420','20110423','20120425','20130426'],
-				['Pulse Ox Percent', 96, 94, 94, 93, 92, 90, 84]
-			]
-		},
-		regions : [
-			{start: '20120425', end: '20130426', class: 'bad'}
-		],
-		grid :{
-			y : {
-				lines : [{ value: 90, text : 'Respiratory function impacted!'}],
-			}
-		},
-		axis : {
-			x : {
-				type: 'timeseries',
-				tick : {
-					format : "%d-%m-%Y",
-					rotate : 45,
-				},
-			height: 60
-			},
-			y : {
-				label : {
-					text : 'Pulse Ox %',
-					position : 'outer-middle'
-				}
-			}
-		}
-	});
-</script>
-<script>
-$('.chartToolTip').each(function () {
-	$(this).qtip({
-		content: {
-			text: $(this).next('div')
-		}, 
-		position : {
-			my: 'top left',
-			at: 'bottom left',
-			target: $(this)
-			//target: 'mouse'
-		},
-		style : {
-			classes: 'qtip-tooltip-large qtip-bootstrap',
-			width : 600,
-			height : 300
-		}
-	});
-});
-</script>
-
-
 </body>
 </html>
