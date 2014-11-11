@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet"></link>
+    <link href="dist/vis.css" rel="stylesheet" type="text/css" />
     <link href="css/bettEHR.css" rel="stylesheet"></link>
     <link href="css/c3.css" rel="stylesheet"></link>
     <link href="css/jquery.qtip.min.css" rel="stylesheet"></link>
@@ -50,11 +51,15 @@
                 <p id="reason"></p>
             </div>
             <div class="col-xs-6 col-md-3">
-                <p id="drInfo">Dr. Moreau</p>
+                <p id="drInfo"></p>
             </div>
         </div>
     </div>
-
+    <div id="timeline"></div>
+    <div class="panel panel-default">
+        <div id="encounterDetails" class="panel-body">
+        </div>
+    </div>
     <div class="panel-heading">
         <h3 class="panel-title">Tests</h3>
     </div>
@@ -69,6 +74,8 @@
     </div>
 </div>
 
+
+<p/>
 <div class="navbar navbar-fixed-bottom navbar-default">
     <div class="container">
         <p class="navbar-text pull-left">Site built by team EHR</p>
@@ -85,9 +92,11 @@
 <script src="src/xmltojson.js"></script>
 <script src="src/d3.js"></script>
 <script src="src/c3.js"></script>
+<script src="dist/vis.js"></script>
+
 <script>
     var testResults, allergies, encounters, vaccinations, medications, vitals;
-    var xmlDoc;
+    var xmlDoc, patientInfo, providerInfo;
     function parseXML (xml) {
         var j = $.xml2json(xml);
         xmlDoc = xml;
@@ -100,10 +109,11 @@
         testResults = getData(j, 5);
         //var social = getData(j, 6);
         vitals = getData(j, 7);
-
+        patientInfo = getPatientInfo(xmlDoc);
         //use test results data to make chart
-        makeChart(testResults)
+        makeChart(testResults);
         setPtInfo();
+        setupTimeline(encounters, patientInfo);
     }
 
     $(document).ready(function(){

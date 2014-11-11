@@ -15,3 +15,7 @@
 .c3-region.bad {
 	fill: red;
 }
+
+.vis.timeline .item.range .content {
+	overflow: visible;
+}
